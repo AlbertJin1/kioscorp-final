@@ -1,0 +1,11 @@
+### DEPENDENCIES
+- npm install sweetalert2 react-router-dom
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- npm i react-icons
+- npm i react-spinners
+- npm install sweetalert2-react-content
+- npm install axios
+- npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+- npm install fuse.js
+- npm install react-swipeable

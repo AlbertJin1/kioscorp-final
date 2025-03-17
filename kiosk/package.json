@@ -1,0 +1,91 @@
+{
+  "name": "kioscorp-kiosk-v3",
+  "version": "2.0.0",
+  "private": true,
+  "description": "An application for KiosCorp POS",
+  "author": {
+    "name": "KiosCorp",
+    "email": "regualos.jessiealbert@gmail.com"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "fuse.js": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.14.1",
+    "react-swipeable": "^7.0.2",
+    "sweetalert2": "^11.14.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=3005 && react-scripts start",
+    "electron": "electron ./public/electron.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "package": "electron-builder"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  },
+  "build": {
+    "appId": "com.kioscorp.kiosk",
+    "productName": "KiosCorp Kiosk",
+    "files": [
+      "build/**/*",
+      "public/electron.js",
+      "kioscorp-icon.png"
+    ],
+    "win": {
+      "icon": "kioscorp-icon.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "icon": "kioscorp-icon.png",
+      "target": [
+        {
+          "target": "deb",
+          "arch": [
+            "armv7l",
+            "arm64"
+          ]
+        }
+      ],
+      "category": "Utility"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+/* CartModal.css */
+
+/* Custom scrollbar styles for WebKit browsers */
+.cart-modal-scrollbar::-webkit-scrollbar {
+    width: 25px;
+    /* Set the width of the scrollbar */
+}
+
+.cart-modal-scrollbar::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    /* Lighter background for the scrollbar track */
+    border-radius: 0;
+    /* No rounded corners for track */
+}
+
+.cart-modal-scrollbar::-webkit-scrollbar-thumb {
+    background: #007bff;
+    /* Blue color for the scrollbar thumb */
+    border-radius: 0;
+    /* No rounded corners for thumb */
+}
+
+.cart-modal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+    /* Darker blue color for the thumb on hover */
+}
+
+/* Ensure that the scrollbar styles apply only to the cart modal */
+.cart-modal-scrollbar {
+    overflow-y: auto;
+    /* Ensure it has overflow to show scrollbar */
+    max-height: 100%;
+    /* Set a max height for the modal */
+}

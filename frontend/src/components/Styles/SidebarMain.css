@@ -1,0 +1,33 @@
+/* SidebarMain.css */
+
+/* Styles for the sliding indicator */
+.indicator {
+    transition: top 0.3s ease-in-out;
+    position: absolute;
+    right: 0;
+    width: 10px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Optional: Add opacity transition for smoother appearance */
+.indicator-enter {
+    opacity: 0;
+    transform: translateX(10px);
+}
+
+.indicator-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.indicator-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.indicator-exit-active {
+    opacity: 0;
+    transform: translateX(-10px);
+}

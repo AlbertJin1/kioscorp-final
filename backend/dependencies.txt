@@ -1,0 +1,25 @@
+# INSTALL FIRST
+pip install django
+python -m pip install Pillow
+pip install django-cors-headers
+pip install djangorestframework
+pip install pywin32
+pip install requests
+pip install celery redis
+pip install django-celery-beat
+pip install cryptography
+
+
+# EXE CONVERT
+pip install pyinstaller
+pip install psutil
+# pyinstaller --onefile --noconsole --icon=kioscorp-icon.ico run_server.py
+
+# TO RUN
+python manage.py runserver 0.0.0.0:8000 
+
+# Create migrations
+python manage.py makemigrations
+
+# Apply migrations
+python manage.py migrate

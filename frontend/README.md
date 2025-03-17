@@ -1,0 +1,39 @@
+### DEPENDENCIES INSTALLED
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- npm install axios
+- npm install react-router-dom
+- npm install recharts
+- npm install react-datepicker
+- npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+- npm install react-transition-group
+- npm install sweetalert2
+- npm install react-icons
+- npm install --save-dev @babel/plugin-proposal-private-property-in-object
+- npm install stream-http https-browserify stream-browserify util browserify-zlib assert url
+- npm i -S react-web-vector-icons
+- npm install react-chartjs-2 chart.js
+- npm install react-loader-spinner
+- npm i react-image-crop
+- npm i react-easy-crop
+- npm install react-modal
+- npm i react-spinners
+- npm i moment
+- npm install xlsx
+- npm install xlsx-style
+- npm install exceljs file-saver
+- npm install react-phone-number-input
+- npm i react-phone-input-component
+- npm install react-select
+- npm i react-cropper
+- npm i react-bootstrap
+- npm install react-transition-group
+- npm install chartjs-plugin-datalabels
+- npm i react-tooltip
+
+# FOR DESKTOP APP IMPLEMENTATION
+- npm install electron --save-dev
+- npm install electron-builder --save-dev
+- npm install electron-is-dev --save
+- npm install cross-env --save-dev
+- npm install wait-on --save-dev

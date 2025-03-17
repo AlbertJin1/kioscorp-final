@@ -1,0 +1,25 @@
+.order-container {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.order-container-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.order-container-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.order-container-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.order-container-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+}
