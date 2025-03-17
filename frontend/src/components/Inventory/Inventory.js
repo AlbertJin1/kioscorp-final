@@ -424,6 +424,7 @@ const Inventory = () => {
         setSearchQuery(product.product_name); // Set search query to the clicked suggestion
         setSuggestions([]); // Clear suggestions
         setShowSuggestions(false); // Hide suggestions
+        setCurrentPage(1); // Reset to the first page
     };
 
     const highlightMatch = (text, term) => {

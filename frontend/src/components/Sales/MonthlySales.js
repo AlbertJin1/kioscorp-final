@@ -222,7 +222,7 @@ const MonthlySales = () => {
         Swal.fire({
             icon: 'info',
             title: 'Feature Not Available',
-            text: 'The daily view feature is not yet available at this time.',
+            text: 'The daily view feature is not yet available at this time. (Client suggestion, not the panel, so not implemented in this version.)',
             position: 'top-end',
             showConfirmButton: false,
             timer: 2000,
