@@ -34,22 +34,22 @@ universal-auto-supply/
 
 ## 💾 Backend (Django)
 
-📍 Navigate to the `backend/` directory:
+📌 Navigate to the `backend/` directory:
 
 ```sh
 cd backend
 ```
 
-📍 Install dependencies:
+📌 Install dependencies:
 
 ```sh
 pip install -r dependencies.txt
 ```
 
-📍 Run the server:
+📌 Run the server:
 
 ```sh
-python manage.py runserver 0.0.0.0:8000 
+python manage.py runserver 0.0.0.0:8000
 ```
 
 📚 More details inside [`backend/README.md`](backend/README.md).
@@ -58,19 +58,19 @@ python manage.py runserver 0.0.0.0:8000
 
 ## 🎨 Frontend (React + Tailwind)
 
-📍 Navigate to the `frontend/` directory:
+📌 Navigate to the `frontend/` directory:
 
 ```sh
 cd frontend
 ```
 
-📍 Install dependencies:
+📌 Install dependencies:
 
 ```sh
 npm install
 ```
 
-📍 Start the React app:
+📌 Start the React app:
 
 ```sh
 npm start
@@ -80,21 +80,21 @@ npm start
 
 ---
 
-## 🏰 Kiosk Frontend (React + Tailwind)
+## 🏠 Kiosk Frontend (React + Tailwind)
 
-📍 Navigate to the `kiosk/` directory:
+📌 Navigate to the `kiosk/` directory:
 
 ```sh
 cd kiosk
 ```
 
-📍 Install dependencies:
+📌 Install dependencies:
 
 ```sh
 npm install
 ```
 
-📍 Start the Kiosk app:
+📌 Start the Kiosk app:
 
 ```sh
 npm start
@@ -111,6 +111,7 @@ npm start
 
 ---
 
-## 💜 License
+## 🔐 Default Login Credentials
 
-This project is **private/internal**. Follow company or team guidelines for usage.
+- **Username:** ustp
+- **Password:** 123

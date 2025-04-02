@@ -1,0 +1,9 @@
+django
+Pillow
+django-cors-headers
+djangorestframework
+pywin32
+requests
+celery redis
+django-celery-beat
+cryptography
